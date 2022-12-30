@@ -9,6 +9,8 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
         registry.add(ModBlocks.AZALEA_LOG_ITEM, 300);
         registry.add(ModBlocks.AZALEA_PLANKS_ITEM, 300);
+        registry.add(ModBlocks.AZALEA_SLAB_ITEM, 150);
+        registry.add(ModBlocks.AZALEA_STAIRS_ITEM, 300);
     }
 
     public static void register(){

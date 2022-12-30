@@ -4,9 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.keegancuff.azaleawood.AzaleaWoodMod;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -24,6 +22,14 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
     public static final Item AZALEA_PLANKS_ITEM = registerBlockItem("azalea_planks", AZALEA_PLANKS);
 
+    public static final Block AZALEA_SLAB = registerBlock("azalea_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+    public static final Item AZALEA_SLAB_ITEM = registerBlockItem("azalea_slab", AZALEA_SLAB);
+
+    public static final Block AZALEA_STAIRS = registerBlock("azalea_stairs",
+            new StairsBlock(AZALEA_PLANKS.getDefaultState(), FabricBlockSettings.copy(AZALEA_PLANKS)));
+    public static final Item AZALEA_STAIRS_ITEM = registerBlockItem("azalea_stairs", AZALEA_STAIRS);
+
 
 
     private static Block registerBlock(String name, Block block){
@@ -37,6 +43,8 @@ public class ModBlocks {
     public static void registerModBlocks() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(AZALEA_LOG));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_PLANKS));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_SLAB));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_STAIRS));
         AzaleaWoodMod.LOGGER.debug("Registering ModBlocks for " + AzaleaWoodMod.MOD_ID);
     }
 }
