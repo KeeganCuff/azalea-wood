@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "azaleawood:azalea_log",
+    "azaleawood:stripped_azalea_log",
+    "azaleawood:azalea_wood",
+    "azaleawood:stripped_azalea_wood",
     "azaleawood:azalea_planks",
     "azaleawood:azalea_slab",
     "azaleawood:azalea_stairs"

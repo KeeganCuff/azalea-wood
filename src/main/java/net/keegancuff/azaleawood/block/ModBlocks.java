@@ -18,6 +18,18 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
     public static final Item AZALEA_LOG_ITEM = registerBlockItem("azalea_log", AZALEA_LOG);
 
+    public static final Block STRIPPED_AZALEA_LOG = registerBlock("stripped_azalea_log",
+            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+    public static final Item STRIPPED_AZALEA_LOG_ITEM = registerBlockItem("stripped_azalea_log", STRIPPED_AZALEA_LOG);
+
+    public static final Block AZALEA_WOOD = registerBlock("azalea_wood",
+            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+    public static final Item AZALEA_WOOD_ITEM = registerBlockItem("azalea_wood", AZALEA_WOOD);
+
+    public static final Block STRIPPED_AZALEA_WOOD = registerBlock("stripped_azalea_wood",
+            new PillarBlock(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
+    public static final Item STRIPPED_AZALEA_WOOD_ITEM = registerBlockItem("stripped_azalea_wood", STRIPPED_AZALEA_WOOD);
+
     public static final Block AZALEA_PLANKS = registerBlock("azalea_planks",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).requiresTool().sounds(BlockSoundGroup.WOOD)));
     public static final Item AZALEA_PLANKS_ITEM = registerBlockItem("azalea_planks", AZALEA_PLANKS);
@@ -42,6 +54,10 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> entries.add(AZALEA_LOG));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_LOG));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(STRIPPED_AZALEA_LOG));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_WOOD));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(STRIPPED_AZALEA_WOOD));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_PLANKS));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_SLAB));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> entries.add(AZALEA_STAIRS));
