@@ -7,6 +7,10 @@
     "azaleawood:stripped_azalea_wood",
     "azaleawood:azalea_planks",
     "azaleawood:azalea_slab",
-    "azaleawood:azalea_stairs"
+    "azaleawood:azalea_stairs",
+    "azaleawood:azalea_fence",
+    "azaleawood:azalea_fence_gate",
+    "azaleawood:azalea_button",
+    "azaleawood:azalea_pressure_plate"
   ]
 }

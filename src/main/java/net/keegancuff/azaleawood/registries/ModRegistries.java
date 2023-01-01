@@ -19,6 +19,8 @@ public class ModRegistries {
         registry.add(ModBlocks.AZALEA_PLANKS, 5, 5);
         registry.add(ModBlocks.AZALEA_SLAB, 5, 5);
         registry.add(ModBlocks.AZALEA_STAIRS, 5, 5);
+        registry.add(ModBlocks.AZALEA_FENCE, 5, 5);
+        registry.add(ModBlocks.AZALEA_FENCE_GATE, 5, 5);
     }
 
     public static void registerModFuels(){
@@ -28,6 +30,8 @@ public class ModRegistries {
         registry.add(ModBlocks.AZALEA_PLANKS_ITEM, 300);
         registry.add(ModBlocks.AZALEA_SLAB_ITEM, 150);
         registry.add(ModBlocks.AZALEA_STAIRS_ITEM, 300);
+        registry.add(ModBlocks.AZALEA_FENCE_ITEM, 300);
+        registry.add(ModBlocks.AZALEA_FENCE_GATE_ITEM, 300);
     }
 
     public static void register(){

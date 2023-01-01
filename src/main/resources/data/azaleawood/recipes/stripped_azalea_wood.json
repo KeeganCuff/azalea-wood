@@ -4,7 +4,7 @@
   "group": "bark",
   "key": {
     "#": {
-      "item": "minecraft:stripped_azalea_log"
+      "item": "azaleawood:stripped_azalea_log"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "minecraft:stripped_azalea_wood"
+    "item": "azaleawood:stripped_azalea_wood"
   }
 }

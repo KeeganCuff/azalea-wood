@@ -5,5 +5,9 @@
   "block.azaleawood.stripped_azalea_wood": "Stripped Azalea Wood",
   "block.azaleawood.azalea_planks": "Azalea Planks",
   "block.azaleawood.azalea_slab": "Azalea Slab",
-  "block.azaleawood.azalea_stairs": "Azalea Stairs"
+  "block.azaleawood.azalea_stairs": "Azalea Stairs",
+  "block.azaleawood.azalea_fence": "Azalea Fence",
+  "block.azaleawood.azalea_fence_gate": "Azalea Fence Gate",
+  "block.azaleawood.azalea_button": "Azalea Button",
+  "block.azaleawood.azalea_pressure_plate": "Azalea Pressure Plate"
 }
