@@ -18,6 +18,9 @@
   "entrypoints": {
     "main": [
       "net.keegancuff.azaleawood.AzaleaWoodMod"
+    ],
+    "client": [
+      "net.keegancuff.azaleawood.AzaleaWoodModClient"
     ]
   },
   "mixins": [

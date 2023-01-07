@@ -11,6 +11,9 @@
     "azaleawood:azalea_fence",
     "azaleawood:azalea_fence_gate",
     "azaleawood:azalea_button",
-    "azaleawood:azalea_pressure_plate"
+    "azaleawood:azalea_pressure_plate",
+    "azaleawood:azalea_door",
+    "azaleawood:azalea_trapdoor",
+    "azaleawood:azalea_sign"
   ]
 }

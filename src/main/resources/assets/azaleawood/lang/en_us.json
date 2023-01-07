@@ -9,5 +9,8 @@
   "block.azaleawood.azalea_fence": "Azalea Fence",
   "block.azaleawood.azalea_fence_gate": "Azalea Fence Gate",
   "block.azaleawood.azalea_button": "Azalea Button",
-  "block.azaleawood.azalea_pressure_plate": "Azalea Pressure Plate"
+  "block.azaleawood.azalea_pressure_plate": "Azalea Pressure Plate",
+  "block.azaleawood.azalea_door": "Azalea Door",
+  "block.azaleawood.azalea_trapdoor": "Azalea Trapdoor",
+  "block.azaleawood.azalea_sign": "Azalea Sign"
 }
